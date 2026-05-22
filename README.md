@@ -1,22 +1,35 @@
 <div align="center">
 
-# Nadim Romero Reyes
+<h1>Nadim Melitón Romero Reyes</h1>
 
-### Junior Backend Developer | Python · PostgreSQL · Odoo
+<h3>⚙️ Junior Backend Developer</h3>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-nadimromeroreyes-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/nadimromeroreyes)
-[![Email](https://img.shields.io/badge/Email-nadim.romero@gmail.com-EA4335?style=flat&logo=gmail)](mailto:nadim.romero@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-NadRome-181717?style=flat&logo=github)](https://github.com/NadRome)
+<p>
+ <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+ <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+ <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+ <img src="https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white"/>
+ <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
+</p>
 
-📍 Veracruz, México
+<p>
+ <a href="https://www.linkedin.com/in/nadimromeroreyes">
+ <img src="https://img.shields.io/badge/LinkedIn-nadimromeroreyes-0A66C2?style=flat-square&logo=linkedin"/>
+ </a>
+ <a href="mailto:nadim.romero@gmail.com">
+ <img src="https://img.shields.io/badge/Email-nadim.romero@gmail.com-EA4335?style=flat-square&logo=gmail"/>
+ </a>
+</p>
+
+<p>📍 Veracruz, México &nbsp;|&nbsp; 🇲🇽 ES &nbsp;·&nbsp; 🇺🇸 EN &nbsp;·&nbsp; 🇫🇷 FR</p>
 
 </div>
 
 ---
 
-### Sobre mí
+## Sobre mí
 
-Profesional con experiencia en gestión administrativa, análisis de procesos y desarrollo backend. Formación en **Derecho** y **Administración de Negocios Internacionales** — hoy aplico esa experiencia para construir soluciones técnicas con Python, PostgreSQL y Odoo.
+Profesional con raíces en Derecho y Administración de Negocios Internacionales, reconvertido al desarrollo de software con foco en backend, bases de datos y automatización de procesos empresariales. Mi formación jurídica y administrativa me da una perspectiva distinta: entiendo los flujos reales de negocio antes de escribir una sola línea de código.
 
 ```python
 class Nadim:
@@ -24,83 +37,89 @@ class Nadim:
         self.name = "Nadim Melitón Romero Reyes"
         self.role = "Junior Backend Developer"
         self.location = "Veracruz, México"
-        self.languages = ["Español", "Inglés", "Francés"]
+        self.languages = ["Español (nativo)", "Inglés (intermedio)", "Francés (avanzado)"]
+        self.background = ["Derecho", "Negocios Internacionales", "Backend Development"]
 
-    def get_stack(self):
+    def stack(self):
         return {
-            "backend": ["Python", "Node.js", "Express"],
-            "database": ["PostgreSQL", "SQL", "MySQL"],
-            "erp": ["Odoo", "ORM", "CRM"],
-            "tools": ["Linux", "Git", "GitHub", "PM2", "SSH"],
-            "frontend": ["HTML", "CSS", "JavaScript"]
+            "backend"  : ["Python", "Node.js", "Express"],
+            "database" : ["PostgreSQL", "MySQL", "SQL directo"],
+            "erp"      : ["Odoo", "ORM", "CRM"],
+            "devops"   : ["Linux", "Git", "PM2", "SSH"],
+            "frontend" : ["HTML", "CSS", "JavaScript"]
         }
 
-    def get_education(self):
-        return [
-            "Lic. Derecho — UGMEX (2015-2019)",
-            "Lic. Admin. Negocios Internacionales — UVM (2014-2019)",
-            "Curso Intensivo Francés — Univ. Catholique de Lyon (2012-2013)"
-        ]
+    def current_focus(self):
+        return "Módulos Odoo personalizados + FastAPI"
 ```
 
 ---
 
-### 🛠️ Tech Stack
+## 🛠️ Stack Técnico
 
-| Backend | Database | ERP/Business | DevOps | Frontend |
-|---------|----------|-------------|--------|----------|
-| Python | PostgreSQL | Odoo | Linux | HTML/CSS |
-| Node.js | SQL | Monday.com | Git | JavaScript |
-| Express | MySQL | CRM/ORM | PM2/SSH | |
-
----
-
-### 📂 Proyectos Destacados
-
-#### [🏥 Psicosomática — Sistema Clínico Digital](https://github.com/NadRome/psicosomatica)
-> Sistema web completo para terapia psicosomática y homeopatía con gestión de expedientes, consultas y seguimiento.
-> - **Stack:** PostgreSQL · Node.js · Express · JWT · JavaScript vanilla
-> - 4 roles con autenticación JWT
-> - Dashboard, expedientes clínicos, calendario, buscador multi-eje
-> - SQL directo sin ORM — desplegado en producción con PM2
+| Categoría | Tecnologías |
+|---|---|
+| Backend | Python · Node.js · Express |
+| Bases de datos | PostgreSQL · MySQL · SQL |
+| ERP / Negocio | Odoo · ORM · CRM · Monday.com |
+| DevOps / Servidor | Linux · Git · PM2 · SSH |
+| Frontend | HTML · CSS · JavaScript |
 
 ---
 
-### 🎓 Certificaciones
+## 📂 Proyecto Destacado
 
-- 🐘 **MySQL & PostgreSQL en Linux** — Udemy
-- 🐍 **Python — Básico** — Udemy
-- 🐧 **Linux — Nivel Usuario** — Udemy
-- 📦 **Odoo — Principiante a Experto** — Udemy
+### [🏥 Psicosomática — Sistema Clínico Digital](https://github.com/NadRome/psicosomatica)
+
+Sistema web completo para clínica de terapia psicosomática y homeopatía — desarrollado desde cero con enfoque en producción real.
+
+| Dato | Detalle |
+|---|---|
+| Stack | Node.js · Express · PostgreSQL · JavaScript |
+| Auth | JWT con 4 roles diferenciados |
+| Deploy | PM2 sobre servidor Linux |
+| BD | SQL directo, sin ORM |
+| Estado | ✅ En producción |
+
+**Lo que resuelve:**
+- Gestión de expedientes clínicos digitales con historial completo
+- Calendario de consultas por terapeuta
+- Buscador multi-eje para localización de registros
+- Control de acceso por rol: administrador, terapeuta, recepción, visualización
 
 ---
 
-### 💼 Experiencia Relevante
+## 💼 Experiencia
 
 | Periodo | Rol | Empresa |
-|---------|-----|---------|
+|---|---|---|
 | 2025 — Hoy | Analista Desconcentrado de Cobranza | SAT Veracruz |
 | 2023 — 2025 | Maestro de Derecho | UGMEX Veracruz |
-| 2022 — 2023 | Ejecutivo Comercial | Stanz Elevators |
 | 2023 — 2024 | Depto. Jurídico | Grupo Cherry |
+| 2022 — 2023 | Ejecutivo Comercial | Stanz Elevators |
 | 2021 — 2022 | Depto. Jurídico | UGMEX Rectoría Centro |
 | 2017 — 2019 | Coord. Marketing Digital | UGMEX Veracruz |
 
 ---
 
-### 🌍 Idiomas
+## 🎓 Formación y Certificaciones
 
-| Idioma | Nivel |
-|--------|-------|
-| 🇲🇽 Español | Nativo |
-| 🇫🇷 Francés | Avanzado |
-| 🇺🇸 Inglés | Intermedio |
+**Licenciaturas**
+- Derecho — UGMEX (2015–2019)
+- Administración de Negocios Internacionales — UVM (2014–2019)
+- Curso Intensivo de Francés — Université Catholique de Lyon (2012–2013)
+
+**Certificaciones técnicas** *(Udemy)*
+- 🐘 MySQL & PostgreSQL en Linux
+- 🐍 Python — Básico
+- 🐧 Linux — Nivel Usuario
+- 📦 Odoo — Principiante a Experto
 
 ---
 
 <div align="center">
 
-**"La tecnología es una herramienta para resolver problemas reales — no solo escribir código."**
+**"Entiendo los flujos reales de negocio antes de escribir una sola línea de código."**
 
 ⭐️ From [NadRome](https://github.com/NadRome)
 
